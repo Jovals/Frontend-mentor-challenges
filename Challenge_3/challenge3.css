@@ -1,0 +1,146 @@
+/* styling for content at the top */
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left {
+  width: 50%;
+  height: 40px;
+  margin: 5rem 2rem 3rem 17rem;
+}
+.heading {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  max-width: 70%;
+  color: purple;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.paragraph {
+  color: rgb(208, 171, 241);
+  max-width: 60%;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10rem;
+}
+.left-div1 {
+  background: rgb(243, 239, 243);
+  color: purple;
+  border-radius: 10px;
+  margin: -0.5rem 30rem 5rem -17rem;
+  height: 50px;
+  width: 120%;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  flex-direction: row;
+}
+.left-div2 {
+  background: rgb(243, 239, 243);
+  color: purple;
+  border-radius: 10px;
+  margin: -4rem 20rem 5rem -15rem;
+  height: 50px;
+  width: 120%;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  flex-direction: row;
+}
+.left-div3 {
+  background: rgb(243, 239, 243);
+  color: purple;
+  border-radius: 10px;
+  margin: -4rem 18rem 5rem -13rem;
+  height: 50px;
+  width: 120%;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  flex-direction: row;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-solid {
+  color: rgb(240, 206, 17);
+}
+.star-text {
+  font-weight: bolder;
+  margin-right: 2rem;
+}
+/* styling fotr the content below */
+.down {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.first1 {
+  background: rgb(59, 15, 59);
+  color: white;
+  width: 20%;
+  height: 250px;
+  margin: -8rem 2rem 15rem 4rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.first2 {
+  background: rgb(59, 15, 59);
+  color: white;
+  width: 20%;
+  height: 250px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: -5rem 2rem 13rem 0rem;
+}
+.first3 {
+  background: rgb(59, 15, 59);
+  color: white;
+  width: 20%;
+  height: 250px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: -4rem 5rem 11rem 0rem;
+}
+.inner-div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-right: 6rem;
+}
+.text-div {
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 2rem;
+  margin-bottom: 1rem; 
+}
+.buyer {
+  color: rgb(230, 133, 230);
+  margin-top: -0.5rem;
+}
+.quote {
+  max-width: 80%;
+}
+img {
+  border-radius: 50px;
+  width: 150%;
+  height: 55px;
+  margin-top: 0.7rem;
+}
